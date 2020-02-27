@@ -9,7 +9,7 @@ class Artist
   attr_reader :songs
 
   @@artists = []
-  binding.pry
+  
   def initialize
     #@@artists << self
     @songs = []
