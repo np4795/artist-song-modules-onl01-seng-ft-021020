@@ -2,7 +2,7 @@ require_relative './spec_helper'
 
 describe Artist do
   before(:each) do
-    Artist.reset_all
+    Artist
   end
 
   # What's the difference between let! and let?
